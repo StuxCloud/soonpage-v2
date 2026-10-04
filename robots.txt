@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://soonpage.stux.cloud/sitemap.xml
+Sitemap: https://soonpage-v2.stux.cloud/sitemap.xml
