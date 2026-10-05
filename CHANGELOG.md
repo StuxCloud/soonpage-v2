@@ -2,6 +2,12 @@
 
 All notable changes to soonpage-v2 are documented here.
 
+## v2.0.1
+
+### Fixed
+
+- The imprint said this page is published as Stux.Cloud, "which is operated by Stux.Cloud, which is operated by" Stux Group Ltd, repeating itself; it now reads "published as Stux.Cloud, which is operated by" Stux Group Ltd
+
 ## v2.0.0
 
 ### Added
