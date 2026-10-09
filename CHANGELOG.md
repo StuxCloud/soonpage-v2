@@ -2,6 +2,12 @@
 
 All notable changes to soonpage-v2 are documented here.
 
+## v2.0.3
+
+### Changed
+
+- The footer no longer says "Stux.Cloud is operated by Stux Group Ltd."; that belongs on the Imprint, which still says it. The copyright line names Stux.Cloud instead of Stux.Group ("© 2026 Stux.Cloud. All rights reserved.")
+
 ## v2.0.2
 
 ### Fixed
