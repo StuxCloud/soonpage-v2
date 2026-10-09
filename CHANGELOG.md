@@ -2,6 +2,12 @@
 
 All notable changes to soonpage-v2 are documented here.
 
+## v2.0.2
+
+### Fixed
+
+- The light/dark choice was saved in the browser under `stuxedo-theme`, a name left over from the Stuxedo page this design was built from; it's now `stuxcloud-theme` on every page, and the Cookies Policy names it correctly. Nothing else in this archived design changes
+
 ## v2.0.1
 
 ### Fixed
