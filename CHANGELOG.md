@@ -4,6 +4,16 @@ All notable changes to soonpage-v2 are documented here.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.06
+
+### Changed
+
+- The README footer's Stux.Cloud, Stuxedo and Stux.Group icons follow GitHub's light or dark theme (`icon-light`/`icon-dark` from each brand's media CDN), matching the other Stux.Cloud repos. The header logo stays pinned to this snapshot's archived assets
+
+### Removed
+
+- Python's `__pycache__` files, which had been committed by mistake. `.gitignore` now keeps them out
+
 ## v26.10.26
 
 ### Security
