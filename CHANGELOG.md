@@ -4,6 +4,12 @@ All notable changes to soonpage-v2 are documented here.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.06-1
+
+### Fixed
+
+- CI passes again: the HTML check allows the colon in the Discord link preview's `id="discord:component-embed"` (html-validate's `valid-id` rule in relaxed mode, as the other Stux.Cloud pages have it). It had failed on every push since the previews were added
+
 ## v26.11.06
 
 ### Added
