@@ -4,6 +4,16 @@ All notable changes to soonpage-v2 are documented here.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.07
+
+### Added
+
+- `LICENSE`, stating the repository is not licensed for reuse or redistribution
+
+### Changed
+
+- The licence is now **All rights reserved**: the README's License section no longer says the project is open source and available for use and modification
+
 ## v26.11.06-1
 
 ### Fixed

@@ -46,7 +46,7 @@ Run `bash tests/version.sh` and `bash tests/site.sh` (Python 3.8+, no dependenci
 
 ## License
 
-Copyright (c) 2026 Stux.Group. This project is open source and available for use and modification.
+Copyright (c) 2026 Stux.Group. All rights reserved. This repository is not licensed for reuse or redistribution, see [LICENSE](LICENSE).
 
 ---
 
