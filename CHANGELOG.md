@@ -4,6 +4,28 @@ All notable changes to soonpage-v2 are documented here.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.06-1
+
+### Fixed
+
+- CI passes again: the HTML check allows the colon in the Discord link preview's `id="discord:component-embed"` (html-validate's `valid-id` rule in relaxed mode, as the other Stux.Cloud pages have it). It had failed on every push since the previews were added
+
+## v26.11.06
+
+### Added
+
+- A `test` branch. Work happens there, and changes reach `main` only through a pull request from `test` that needs CI to pass and is reviewed and merged by Leo. Release commits and tags are made on `test`
+
+### Changed
+
+- The README footer's Stux.Cloud, Stuxedo and Stux.Group icons follow GitHub's light or dark theme (`icon-light`/`icon-dark` from each brand's media CDN), matching the other Stux.Cloud repos. The header logo stays pinned to this snapshot's archived assets
+- CI runs on pushes to `test` as well as `main`
+- The README's Versioning section and a new **Branches** section in `CONTRIBUTING.md` describe the `test` branch, and `commit.sh`/`commit.bat` suggest pushing to `test`
+
+### Removed
+
+- Python's `__pycache__` files, which had been committed by mistake. `.gitignore` now keeps them out
+
 ## v26.10.26
 
 ### Security
