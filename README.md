@@ -22,6 +22,7 @@ Live at [soonpage-v2.stux.cloud](https://soonpage-v2.stux.cloud/). Its logo, ico
 
    ```bash
    ./dev-server.sh        # or dev-server.bat on Windows
+   ./dev-server.sh --lan  # also open it from a phone or another device on your network
    ```
 
    Then open the printed URL. You can also open `index.html` directly in your browser.
@@ -38,7 +39,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to get involved, and [CHANGELOG.m
 
 This project uses [Date Versioning](https://datevers.ing): each release is numbered by its UTC release date as `YY.MM.DD` (for example `26.10.23`), with `-1`, `-2`… for later releases the same day. See [CHANGELOG.md](CHANGELOG.md) for what changed in each release.
 
-Work happens on `test` (or a branch off it), never on `main`. Changes reach `main` only through a pull request from `test`; the release commit and tag are made on `test` and go live when the pull request is merged.
+Work happens on `test` (or a branch off it). Changes go `test` → `staging` → `main`, each step through a pull request; the release commit and tag are made on `test` and go live when the pull request from `staging` into `main` is merged. See [CONTRIBUTING.md](CONTRIBUTING.md#branches-and-going-live).
 
 ## Tests
 
