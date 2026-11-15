@@ -4,6 +4,12 @@ All notable changes to soonpage-v2 are documented here.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.15-1
+
+### Added
+
+- **A `staging` branch.** Changes now go `test` → `staging` → `main`, each through a pull request. `commit.sh` and `commit.bat` refuse to run on `staging` as well as `main`, and after tagging they print the push and both `gh pr create` commands. CI also runs on pushes to `staging`. `CONTRIBUTING.md` has a new "Branches and going live" section, and the README's Versioning section describes the flow
+
 ## v26.11.15
 
 ### Added
